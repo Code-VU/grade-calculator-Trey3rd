@@ -5,7 +5,7 @@ def calculateGrade():
     try:
         score = float(input("Enter score:"))
         if score > 1.0 or score < 0.0:
-            print("Bad Score")
+            print("Bad score")
         elif score >= 0.9:
             print ("A")
         elif score >= 0.8:
@@ -17,7 +17,7 @@ def calculateGrade():
         elif score < 0.6:
             print("F")
     except:
-        print("Bad Score")
+        print("Bad score")
     # end assignment
 
 ## if you want to test locally before you try to sync
